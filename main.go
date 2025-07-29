@@ -56,7 +56,6 @@ func main() {
 		}
 
 		result := handler(args)
-		fmt.Println("Result: ", result)
 		writer.Write(result)
 	}
 }
